@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인정보처리방침 — Quick Prompt</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', 'Noto Sans KR', sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      line-height: 1.8;
+      padding: 0;
+    }
+    nav {
+      background: rgba(15,15,26,.95);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      padding: 16px 5%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .nav-logo {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-logo span {
+      background: linear-gradient(135deg, #6366f1, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .container {
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 24px 80px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .updated {
+      font-size: 14px;
+      color: #475569;
+      margin-bottom: 48px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #a5b4fc;
+      margin: 40px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(99,102,241,.2);
+    }
+    p {
+      color: #94a3b8;
+      margin-bottom: 14px;
+    }
+    ul {
+      color: #94a3b8;
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+    ul li { margin-bottom: 6px; }
+    .highlight-box {
+      background: rgba(99,102,241,.08);
+      border: 1px solid rgba(99,102,241,.2);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .highlight-box p { color: #c7d2fe; margin: 0; }
+    a { color: #6366f1; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: #334155;
+      font-size: 13px;
+      border-top: 1px solid rgba(255,255,255,.06);
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">⚡ <span>Quick Prompt</span></a>
+</nav>
+
+<div class="container">
+  <h1>개인정보처리방침</h1>
+  <p class="updated">최종 업데이트: 2026년 4월 27일</p>
+
+  <div class="highlight-box">
+    <p>✅ Quick Prompt는 사용자의 개인정보를 <strong>수집하지 않습니다.</strong> 모든 데이터는 사용자 본인의 기기 및 Chrome 계정에만 저장됩니다.</p>
+  </div>
+
+  <h2>1. 수집하는 정보</h2>
+  <p>Quick Prompt 확장프로그램은 다음의 개인 식별 정보를 수집하지 않습니다:</p>
+  <ul>
+    <li>이름, 이메일 주소, 전화번호 등 개인 식별 정보</li>
+    <li>위치 정보</li>
+    <li>결제 정보</li>
+    <li>브라우저 방문 기록</li>
+    <li>사용자 행동 데이터 또는 분석 데이터</li>
+  </ul>
+
+  <h2>2. 저장하는 데이터</h2>
+  <p>확장프로그램은 다음 데이터를 사용자의 기기 및 Chrome 계정에 로컬로 저장합니다:</p>
+  <ul>
+    <li>사용자가 직접 입력한 프롬프트 내용 및 제목</li>
+    <li>카테고리 이름 및 설정</li>
+    <li>썸네일 이미지 (사용자가 직접 업로드한 경우)</li>
+    <li>확장프로그램 환경설정</li>
+  </ul>
+  <p>이 데이터는 <strong>Chrome Storage API</strong>를 통해 사용자의 기기(로컬) 및 Chrome 계정(동기화)에만 저장되며, 개발자 또는 제3자 서버에는 전송되지 않습니다.</p>
+
+  <h2>3. 제3자 서비스</h2>
+  <p>Quick Prompt는 광고 배너 표시를 위해 <strong>쿠팡 파트너스 API</strong>(api-gateway.coupang.com)와 통신합니다. 이 요청은 상품 정보 조회를 위한 것이며, 사용자의 개인 정보는 포함되지 않습니다. 해당 API는 쿠팡의 개인정보처리방침을 따릅니다.</p>
+
+  <h2>4. 권한 사용 목적</h2>
+  <ul>
+    <li><strong>storage</strong>: 프롬프트, 카테고리 등 사용자 데이터를 기기에 저장하고 Chrome 계정 간 동기화</li>
+    <li><strong>clipboardWrite</strong>: 사용자가 요청한 프롬프트 내용을 클립보드에 복사</li>
+    <li><strong>sidePanel</strong>: 브라우저 우측 사이드 패널에 확장프로그램 UI 표시</li>
+  </ul>
+
+  <h2>5. 데이터 공유</h2>
+  <p>Quick Prompt는 사용자 데이터를 어떠한 제3자와도 공유, 판매, 임대하지 않습니다.</p>
+
+  <h2>6. 데이터 보안</h2>
+  <p>모든 프롬프트 데이터는 사용자 본인의 Chrome 계정 또는 로컬 기기에만 저장됩니다. 개발자는 이 데이터에 접근할 수 없습니다.</p>
+
+  <h2>7. 아동 개인정보 보호</h2>
+  <p>Quick Prompt는 13세 미만 아동으로부터 의도적으로 개인정보를 수집하지 않습니다.</p>
+
+  <h2>8. 개인정보처리방침 변경</h2>
+  <p>본 방침은 변경될 수 있으며, 변경 시 이 페이지에 최신 내용이 게시됩니다. 최종 업데이트 날짜를 통해 변경 여부를 확인하실 수 있습니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>개인정보 처리에 관한 문의사항이 있으신 경우 아래로 연락 주세요:</p>
+  <p>이메일: <a href="mailto:kjj0708@gmail.com">kjj0708@gmail.com</a></p>
+</div>
+
+<footer>
+  © 2026 Quick Prompt. All rights reserved.<br>
+  <a href="index.html">홈으로 돌아가기</a>
+</footer>
+
+</body>
+</html>
